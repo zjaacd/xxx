@@ -1,44 +1,39 @@
 {
-    "api": {
-        "id": null,
-        "worker-id": null
-    },
-    "http": {
-        "enabled": true,
-        "host": "0.0.0.0",
-        "port": 8181,
-        "access-token": null,
-        "restricted": true
-    },
-    "autosave": true,
-    "colors": true,
-    "title": true,
-    "version": 1,
-    "bind": [
-        "0.0.0.0:7777"
-    ],
-    "pools": [
-        {
-            "algo": "rx/0",
-            "coin": "monero",
-            "url": "pool.supportxmr.com:3333",
-            "user": "85iRwp92DdBAoBax2K7DTGczQbk8WTYeW72Md4Ccb32pbPWFbdVzvmi7Dp1ae48pABbbSRu6ZLdzdAQ5kEzDSJaWRehZW6b.xxx1",
-            "pass": "x",
-            "rig-id": null,
-            "keepalive": true,
-            "enabled": true,
-            "tls": false,
-            "tls-fingerprint": null,
-            "daemon": false,
-            "daemon-poll-interval": 1000
-        }
-    ],
-    "retries": 5,
-    "retry-pause": 5,
-    "verbose": false,
-    "log-file": "xmrig-proxy.log",
-    "syslog": false,
-    "custom-diff": 0,
-    "custom-diff-stats": false,
-    "mode": "simple"
+  "api": {
+    "enabled": true,
+    "host": "0.0.0.0",
+    "port": 8181,
+    "access-token": null,
+    "restricted": true
+  },
+  "autosave": true,
+  "colors": true,
+  "title": true,
+  "version": 1,
+  "bind": [
+    "0.0.0.0:7777"
+  ],
+  "pools": [
+    {
+      "algo": "rx/0",
+      "coin": "monero",
+      "url": "pool.supportxmr.com:3333",
+      "user": "85iRwp92DdBAoBax2K7DTGczQbk8WTYeW72Md4Ccb32pbPWFbdVzvmi7Dp1ae48pABbbSRu6ZLdzdAQ5kEzDSJaWRehZW6b.worker1",
+      "pass": "x",
+      "rig-id": null,
+      "keepalive": true,
+      "enabled": true,
+      "tls": false,
+      "daemon": false,
+      "daemon-poll-interval": 1000
+    }
+  ],
+  "retries": 5,
+  "retry-pause": 5,
+  "verbose": true,
+  "log-file": "xmrig-proxy.log",
+  "syslog": false,
+  "custom-diff": 0,
+  "custom-diff-stats": false,
+  "mode": "simple"
 }
